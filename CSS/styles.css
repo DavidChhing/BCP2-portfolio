@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+#topRightNav {
+  /* text-align: right; */
+  margin: 0;
+  padding: 5px;
+}
+#middleNav {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+}
+.navigationBar {
+  margin: 60px;
+
+}
+body {
+    background-color: burlywood;
+}
+.icon-github:hover {
+  background-color: yellow;
+}
+.icon-facebook2:hover{
+  background-color: yellow;
+}
+.icon-github:before {
+  content: "\eab0";
+  font-size: 33px;
+  padding-right: 30px;  
+    position: relative;
+    left: initial;
+    top: initial;
+}
+.icon-facebook2:before {
+  content: "\ea91";
+  font-size: 33px;
+  padding-right: 30px;
+    position: relative;
+    left: initial;
+    top: initial;
+}
+
