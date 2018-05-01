@@ -40,4 +40,19 @@ body {
     left: initial;
     top: initial;
 }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 1600px) {
+  body {
+    background-color: seashell;
+  }
+}
 
