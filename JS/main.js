@@ -1,8 +1,31 @@
 'use strict'
 
-function Projects(completeDate,projectName,bootCamp, collaborators ) {
+function Projects(completeDate,projectName,projectInfo) {
     this.completeDate = completeDate;
     this.projectName = projectName;
-    this.bootCamp = bootCamp;
-    this.collaborators = collaborators;
+    this.projectInfo = projectInfo;
+    
 }
+
+var rawData [
+    {
+        completeDate: ""
+        projectName: 
+        projectInfo:
+    },
+    {
+        completeDate: ""
+        projectName: 
+        projectInfo:
+    },
+    {
+        completeDate: ""
+        projectName: 
+        projectInfo:
+    },
+    {
+        completeDate: ""
+        projectName: 
+        projectInfo:
+    },
+]
