@@ -5,44 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/Icon.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/module.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/state.css">
+    <link rel="stylesheet" href="CSS/theme.css">
     <title>David Chhing's Personal Portfolio</title>
+    
+    <script id="project-template" type="text/x-handlebars-template">
+    <section>
+        <p><time datetime="01-01-2000">{{completeDate}}</time></p>
+        <h2>Project Name: {{projectName}}</h2>
+        <p>project Info: {{{projectInfo}}}</p>
+    </section>
+    </script>
 </head>
 
 <body>
     <header>
-        <div id="topRightNav">
-            
-            <ul>
-                <li>
-                    <span class="icon-github" onclick="window.open('https://www.github.com/davidchhing')"></span>
-                    <a>Github</a>
-                </li>
-                <li>
-                    <span class="icon-facebook2" onclick="window.open('https://www.facebook.com/david.chhing.1')"></span>
-                    <a>Facebook</a>
-                </li>
+        <section>
+            <div id="topRightNav">
+                <ul>
+                    <li>
+                        <span class="icon-github" onclick="window.open('https://www.github.com/davidchhing')"></span>
+                        <a>Github</a>
+                    </li>
+                    <li>
+                        <span class="icon-facebook2" onclick="window.open('https://www.facebook.com/david.chhing.1')"></span>
+                        <a>Facebook</a>
+                    </li>
+                </ul>
                 <h1>David Chhing's Portfolio</h1>
+            </div>
+        </section>
+        <nav id="middleNav">
+            <a class="navigationBar" href="" title="Home">Home</a>
+            <a class="navigationBar" href="" title="About">About</a>
+            <a class="navigationBar" href="" title="Hire">Hire me</a>
+            <a class="navigationBar" href="" title="Projects">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Skills and Experiences</h2>
+            <ul>
+                <li>Kinda proficient at Javascript</li>
+                <li> Decent at HTML</li>
+                <li> Getting better at CSS</li>
+                <li> Proficient in Windows</li>
+                <li> Slowly learning MAC</li>
+                <li> Pretty good at driving</li>
             </ul>
-        </div>       
- </header>
+            <h2>About Me</h2>
+            <p>
+                Bacon ipsum dolor amet drumstick alcatra hamburger kevin shankle sausage meatball short loin biltong. Bacon burgdoggen biltong bresaola pig pork chop rump tenderloin shoulder pork belly filet mignon tri-tip. Short loin flank jerky, salami turducken meatball cow pancetta tongue. Pastrami swine shank biltong alcatra strip steak. Tenderloin boudin bacon filet mignon, porchetta meatball swine pig jowl turducken shank picanha. Chuck kevin t-bone, buffalo hamburger short ribs pig pork belly turkey sausage.
+            </p>
+        </section>
+        <section id="previousProjects">
+            <h2>Previous Projects</h2>
 
-    <nav id="middleNav">
-        <a class="navigationBar" href="" title="Home">Home</a>
-        <a class="navigationBar" href="" title="About">About</a>
-        <a class="navigationBar" href="" title="Hire">Hire me</a>
-        <a class="navigationBar" href="" title="Projects">Projects</a>
-    </nav>
+        </section>
+    </main>
 
-    <section>
-<h2>Skills and Experiences</h2>
-<ul>
-    <li>Kinda proficient at Javascript</li>
-    <li>Pretty decent at HTML</li>
-    <li> Getting better at CSS</li>
-</ul>
-
-
-    </section>
-
+    <footer>
+        &copy; 2018 Chhing Limited | Portfolio | Alchemy Lab Soon-to-be Graduate
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+    <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="JS/projectInfo.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
 </body>
+
 </html>

@@ -1,31 +1,18 @@
 'use strict'
 
-function Projects(completeDate,projectName,projectInfo) {
-    this.completeDate = completeDate;
-    this.projectName = projectName;
-    this.projectInfo = projectInfo;
-    
+var projects = [];
+
+function Projects(rawDataObject) {
+    this.completeDate = rawDataObject.completeDate;
+    this.projectName = rawDataObject.projectName;
+    this.projectInfo = rawDataObject.projectInfo;
 }
 
-var rawData [
-    {
-        completeDate: ""
-        projectName: 
-        projectInfo:
-    },
-    {
-        completeDate: ""
-        projectName: 
-        projectInfo:
-    },
-    {
-        completeDate: ""
-        projectName: 
-        projectInfo:
-    },
-    {
-        completeDate: ""
-        projectName: 
-        projectInfo:
-    },
-]
+Projects.prototype.toHtml = function() {
+    var $template = $('project-template').html();
+    var compile = Handlebars.compile($template);
+}
+
+
+
+
