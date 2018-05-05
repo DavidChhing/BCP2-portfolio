@@ -11,7 +11,9 @@ function Projects(rawDataObject) {
 Projects.prototype.toHtml = function() {
     var $template = $('project-template').html();
     var compile = Handlebars.compile($template);
-}
+    $('main').append(compile(this));
+
+};
 
 
 
