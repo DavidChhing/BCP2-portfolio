@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5p7kq8');
-  src:  url('fonts/icomoon.eot?5p7kq8#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5p7kq8') format('truetype'),
-    url('fonts/icomoon.woff?5p7kq8') format('woff'),
-    url('fonts/icomoon.svg?5p7kq8#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?flsrtu');
+  src:  url('fonts/icomoon.eot?flsrtu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?flsrtu') format('truetype'),
+    url('fonts/icomoon.woff?flsrtu') format('woff'),
+    url('fonts/icomoon.svg?flsrtu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,37 +24,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.icon-menu:before {
+  content: "\e9bd";
+  font-size: 100%;
+  font-size: 3em;
+  /* display: flex;
+  margin: 0; */
+}
+.icon-menu:hover {
+  background-color: yellow;
+}
 .icon-facebook2:before {
   content: "\ea91";
+  font-size: 3em;
+}
+.icon-github:before {
+  content: "\eab0";
+  font-size: 3em;
 }
 
-@font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6rm2h1');
-  src:  url('fonts/icomoon.eot?6rm2h1#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6rm2h1') format('truetype'),
-    url('fonts/icomoon.woff?6rm2h1') format('woff'),
-    url('fonts/icomoon.svg?6rm2h1#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+.icon-github:hover {
+  background-color: yellow;
 }
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.icon-facebook2:hover{
+  background-color: yellow;
 }
-
-.icon-github2:before {
-  content: "\e900";
+.icon-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1em;
+  
+  
+}
+.icon-facebook2 {
+  padding-right: 1em;
 }
