@@ -1,13 +1,14 @@
-h1 {
-  text-align: center;
-  font-size: 3em;
-}
+
 #socialMediaIcons { 
   display: flex;
   flex-direction: row-reverse;
 }
 
-
+.nameSection {
+  margin: 0 auto;
+  max-width: 100%;
+  border: 1px solid red;
+}
 
 
 #mainNav {
@@ -18,26 +19,64 @@ h1 {
   flex-direction: column;
 
 }
+.icon-menu {
+  font-size: 100%;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+ 
+}
+h1 {
+  /* max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+  color: red; */
+  text-align:center;
+}
 
+input {
+  /* display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    width: 48px; */
+    /* display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1em;
+    z-index: 2; */
+    font-size: 100%;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 body {
     background: url(../Images/pexels-photo-978340.jpeg)
 }
 
 @media screen and (min-width: 450px) {
-  .icon-menu {
+  .icon-menu, input {
     display: none;
 }
-.navhead ul {
-  display: block
+ 
+  
 }
-.navhead li {
-  display: inline;
-}
-}
-@media screen and (min-width: 992px) {
-
-
+@media screen and (max-width: 450px) {
+  .name {
+    visibility: hidden;
   }
+  .name:before {
+    content: "DC";
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+  }
+  
 }
 @media screen and (min-width: 1600px) {
 
@@ -47,4 +86,23 @@ body {
 #previousProjects {
   display: flex;
   flex-direction: column;
+}
+
+.icon-menu:hover {
+  background-color: yellow;
+}
+.icon-facebook2:before {
+  font-size: 3em;
+}
+.icon-github:before {
+  font-size: 3em;
+}
+.icon-github:hover {
+  background-color: yellow;
+}
+.icon-facebook2:hover{
+  background-color: yellow;
+}
+.icon-facebook2 {
+  padding-right: 1em;
 }

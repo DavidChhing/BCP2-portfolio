@@ -26,37 +26,12 @@
 
 .icon-menu:before {
   content: "\e9bd";
-  font-size: 100%;
-  font-size: 3em;
-  /* display: flex;
-  margin: 0; */
-}
-.icon-menu:hover {
-  background-color: yellow;
 }
 .icon-facebook2:before {
   content: "\ea91";
-  font-size: 3em;
 }
 .icon-github:before {
   content: "\eab0";
-  font-size: 3em;
 }
 
-.icon-github:hover {
-  background-color: yellow;
-}
-.icon-facebook2:hover{
-  background-color: yellow;
-}
-.icon-menu {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 1em;
-  
-  
-}
-.icon-facebook2 {
-  padding-right: 1em;
-}
+
