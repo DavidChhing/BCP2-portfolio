@@ -106,3 +106,15 @@ body {
 .icon-facebook2 {
   padding-right: 1em;
 }
+
+ul li {
+  display:inline;
+  margin: 1em;
+  max-width: 100%;
+ 
+}
+
+/* #navbar {
+  display: flex;
+  justify-content: space-evenly;
+} */
