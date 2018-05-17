@@ -2,3 +2,14 @@
     display: flex;
     flex-direction: row-reverse;
 }
+#previousProjects {
+    display: flex;
+    flex-direction: column;
+}
+#skills-section {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    /* text-align: center; */
+    flex-wrap: wrap;
+}

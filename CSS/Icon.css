@@ -33,5 +33,19 @@
 .icon-github:before {
   content: "\eab0";
 }
-
+.icon-facebook2:before {
+  font-size: 3em;
+}
+.icon-github:before {
+  font-size: 3em;
+}
+.icon-github:hover {
+  background-color: yellow;
+}
+.icon-facebook2:hover{
+  background-color: yellow;
+}
+.icon-facebook2 {
+  padding-right: 1em;
+}
 

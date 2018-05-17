@@ -2,14 +2,14 @@
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s;
-
-  }
-  
-  #menu-toggle {
+}
+#menu-toggle {
     display: none;
-    
-  }
-  
-  #menu-toggle:checked + #main-menu {
+}
+#menu-toggle:checked + #main-menu {
     max-height: 110px;
-  }
+}
+.icon-menu:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(.2em);
+}

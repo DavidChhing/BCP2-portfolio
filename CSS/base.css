@@ -3,9 +3,19 @@ body {
 }
 h1 {
     text-align:center;
-  }
+}
+/* h2 {
+    text-align: left;
+} */
 ul li {
     display:inline;
     margin: 1em;
     max-width: 100%;
 }
+input {
+    font-size: 100%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }

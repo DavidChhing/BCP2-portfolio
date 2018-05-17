@@ -1,70 +1,23 @@
-
-
-.nameSection {
-  margin: 0 auto;
-  max-width: 100%;
-  border: 1px solid red;
-}
-
-
-#mainNav {
-  /* font-size: 25px;
-  text-align: center;
-  padding: 20px; */
-  display: flex;
-  flex-direction: column;
-
-}
-.icon-menu {
-  font-size: 100%;
-  font-size: 3em;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.icon-menu:active {
-  
-  box-shadow: 0 5px #666;
-  transform: translateY(.2em);
-}
-
-input {
-  font-size: 100%;
-  font-size: 3em;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-
 @media screen and (min-width: 450px) {
   .icon-menu, input {
     display: none;
   } 
+  #main-wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+}
+.icon-menu {
+    font-size: 100%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 
-#previousProjects {
-  display: flex;
-  flex-direction: column;
-}
 
 
-.icon-facebook2:before {
-  font-size: 3em;
-}
-.icon-github:before {
-  font-size: 3em;
-}
-.icon-github:hover {
-  background-color: yellow;
-}
-.icon-facebook2:hover{
-  background-color: yellow;
-}
-.icon-facebook2 {
-  padding-right: 1em;
-}
 
 
 
