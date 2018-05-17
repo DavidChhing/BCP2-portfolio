@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="CSS/module.css">
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/state.css">
-    <link rel="stylesheet" href="CSS/theme.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <link rel="stylesheet" href="CSS/desktop.css">
     <title>David Chhing's Personal Portfolio</title>
     
     <script id="project-template" type="text/x-handlebars-template">
@@ -37,27 +37,24 @@
             
             <header> 
         <nav class="navhead">
+            <label class="icon-menu" for="menu-toggle"></label>
+
+         
+            <input id="menu-toggle" type="checkbox">
+                <ul id="main-menu">
+                    <li> <a href="" title="Home">Home</a> </li>
+                    <li> <a href="" title="About">About </a> </li>
+                    <li> <a href="" title="Hire">Hire me</a> </li>       
+                    <li> <a href="" title="Projects">Projects</a> </li>
+                </ul>    
+        </nav>                     
+                    
+                    
+                            
+                    
                 
-            <div class="icon-menu"></div>
-            <input type="checkbox">
- <!-- make a label tag and put the checkbox inside. then make a "for" "it" so if the user clicks on the box, it will automatically select the checkbox. w -->
-            <div id="navbar">
-                <ul>
-                    <li>
-                            <a href="" title="Home">Home</a>
-                    </li>
-                    <li>
-                            <a href="" title="About">About</a>
-                    </li>
-                    <li>
-                            <a href="" title="Hire">Hire me</a>
-                    </li>
-                    <li>
-                            <a href="" title="Projects">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>    
+            
+          
     </header>
 
     <main>
