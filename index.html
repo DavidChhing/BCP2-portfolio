@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="CSS/Icon.css">
     <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="CSS/module.css">
@@ -12,34 +11,25 @@
     <link rel="stylesheet" href="CSS/mobile.css">
     <link rel="stylesheet" href="CSS/desktop.css">
     <title>David Chhing's Personal Portfolio</title>
-    
     <script id="project-template" type="text/x-handlebars-template">
     <section>
-        <p><time datetime="01-01-2000">{{completeDate}}</time></p>
-        <h2>Project Name: {{projectName}}</h2>
-        <p>project Info: {{{projectInfo}}}</p>
+        <h3>{{completeDate}}</h3>
+        <h1>Project Name: {{projectName}}</h1>
+        <p>project Info: {{{Body}}}</p>
     </section>
     </script>
 </head>
 
 <body>
-       <div id="socialMediaIcons">
+    <div id="socialMediaIcons">
             <span class="icon-github" onclick="window.open('https://www.github.com/davidchhing')"></span>       
             <span class="icon-facebook2" onclick="window.open('https://www.facebook.com/david.chhing.1')"></span>
-       </div>
-            
-       <h1 class="name">David Chhing</h1>
-            
-      
-
-               
+    </div>            
+    <h1 class="name">David Chhing</h1>
     
-            
-            <header> 
+    <header> 
         <nav class="navhead">
             <label class="icon-menu" for="menu-toggle"></label>
-
-         
             <input id="menu-toggle" type="checkbox">
                 <ul id="main-menu">
                     <li> <a href="" title="Home">Home</a> </li>
@@ -48,13 +38,9 @@
                     <li> <a href="" title="Projects">Projects</a> </li>
                 </ul>    
         </nav>                     
-          
     </header>
 
     <main id="main-wrapper">
-        
-
-        </div>
         <section>
             <h2>Skills and Experiences</h2>
             <ul id="skills-section">
@@ -78,10 +64,10 @@
     <footer>
         &copy; 2018 Chhing Limited | Portfolio | Alchemy Lab Soon-to-be Graduate
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
     <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="JS/projectInfo.js"></script>
     <script type="text/javascript" src="JS/main.js"></script>
 </body>
-
 </html>
