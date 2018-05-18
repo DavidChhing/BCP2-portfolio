@@ -4,7 +4,7 @@ var rawData = [
     {
         completeDate: "March 25, 2018",
         projectName: "Coach Potatoes",
-        body: "<img src='../Images/samoyed1.jpeg' alt='Samoyed Puppies'></br> <p>Lorem ipsum dolor amet iceland you probably haven't heard of them mlkshk post-ironic plaid. Bicycle rights deep v chillwave, dreamcatcher la croix sartorial slow-carb readymade distillery squid tacos iceland. Taxidermy sustainable mustache cloud bread cray. Beard gluten-free poke kitsch bushwick sustainable. Palo santo fashion axe poke master cleanse, salvia kombucha 90's adaptogen.<p>"
+        body: "<img src='../Images/samoyed1.jpeg' alt='Samoyed Puppies'></br> <p>Lorem ipsum dolor amet iceland you probably haven't heard of them mlkshk post-ironic plaid. Bicycle rights deep v chillwave, dreamcatcher la croix sartorial slow-carb readymade distillery squid tacos iceland. Taxidermy sustainable mustache cloud bread cray. Beard gluten-free poke kitsch bushwick sustainable. Palo santo fashion axe poke master cleanse, salvia kombucha 90's adaptogen.<p>",
     },
     {
         completeDate: "March 17, 2018",
