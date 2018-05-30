@@ -1,12 +1,15 @@
 body {
     background: url(../Images/pexels-photo-978340.jpeg);
+    font-family: 'Muli', sans-serif;
 }
 h1 {
-    text-align:center;
+    text-align: center;
+    font-family: 'Trirong', serif;
+    font-size: 3.5em;
 }
-/* h2 {
-    text-align: left;
-} */
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
 ul li {
     display:inline;
     margin: 1em;

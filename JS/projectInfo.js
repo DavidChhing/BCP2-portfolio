@@ -1,6 +1,6 @@
 'use strict'
 
-var rawData = [
+var rawProjectData = [
     {
         completeDate: "March 25, 2018",
         projectName: "Coach Potatoes",
@@ -23,3 +23,4 @@ var rawData = [
 
     },
 ];
+

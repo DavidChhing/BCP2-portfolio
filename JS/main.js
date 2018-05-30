@@ -2,10 +2,10 @@
 
 var projects = [];
 
-function Projects(rawDataObject) {
-    this.completeDate = rawDataObject.completeDate;
-    this.projectName = rawDataObject.projectName;
-    this.body = rawDataObject.body;
+function Projects(rawProjectDataObject) {
+    this.completeDate = rawProjectDataObject.completeDate;
+    this.projectName = rawProjectDataObject.projectName;
+    this.body = rawProjectDataObject.body;
 }
 
 Projects.prototype.toHtml = function() {
@@ -20,7 +20,7 @@ Projects.prototype.toHtml = function() {
     return $createNewProject;
 };
 
-rawData.forEach(function(projectObject) {
+rawProjectData.forEach(function(projectObject) {
     projects.push(new Projects(projectObject));
 });
 
@@ -30,28 +30,27 @@ projects.forEach(function(displayProjectsToHTML){
 
 
 
+// menuItems.forEach(function(menuObject) {
+//     projects.push(new Projects(menuObject));
+// });
+
+// projects.forEach(function(displayProjectsToHTML){
+//     $('#nav-list').append(displayProjectsToHTML.toHtml());
+// });
+
+// const renderProjectList = () => {
+//     var navigationList = $('project-list').data('key');
+//     let counter = navigationList => navigationList++;
+//     navigationList.innerHTML += '<a href="#" id="${projects[i].projectName}"></a>'
+// }
+
+// var projectView = {};
+
+// $(document).ready(function() {
+//     $('#projects').children().hide();;
+//     projectView.handleClicks();
+//     renderProjectList();
+//   });
 
 
-Date.daysBetween = function( date1, date2 ) {
-    //Get 1 day in milliseconds
-    var one_day=1000*60*60*24;
-  
-    // Convert both dates to milliseconds
-    var date1_ms = date1.getTime();
-    var date2_ms = date2.getTime();
-  
-    // Calculate the difference in milliseconds
-    var difference_ms = date2_ms - date1_ms;
-      
-    // Convert back to days and return
-    return Math.round(difference_ms/one_day); 
-  }
-  
-  //Set the two dates
-  var y2k  = new Date(2000, 0, 1); 
-  var Jan1st2010 = new Date(y2k.getFullYear() + 10, y2k.getMonth(), y2k.getDate());
-  var today= new Date();
 
-  console.log( 'Days since ' 
-           + Jan1st2010.toLocaleDateString() + ': ' 
-           + Date.daysBetween(Jan1st2010, today));
