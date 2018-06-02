@@ -25,52 +25,47 @@
             <span class="icon-github" onclick="window.open('https://www.github.com/davidchhing')"></span>       
             <span class="icon-facebook2" onclick="window.open('https://www.facebook.com/david.chhing.1')"></span>
     </div>            
-    <h1 class="name">David Chhing</h1>
-    
     <header> 
-        <nav id="Main-nav">
-            <label class="icon-menu" for="menu-toggle"></label>
-            <input id="menu-toggle" type="checkbox">
-                
-                <ul id="main-menu">
-                    <li> <a href="" title="Home">Home</a> </li>
-                    <li> <a href="" title="About">About </a> </li>
-                    <li> <a href="" title="Hire">Hire me</a> </li>       
-                    <li> <a href="" title="Projects">Projects</a> </li>
-                </ul>     
+        <h1 class="name">David Chhing</h1>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <nav class="menu"> 
+            <ul>
+                <a href="#about"><li>ABOUT ME</li></a>
+                <a href="#project-section"><li>PROJECTS</li></a>
+            </ul>     
         </nav>                     
     </header>
-
-    <main id="main-wrapper">
-        <section>
-            <h2>Skills and Experiences</h2>
-            <ul id="skills-section">
-                <li>Kinda proficient at Javascript</li>
-                <li> Improving at HTML</li>
-                <li> Getting better at CSS</li>
-                <li> Proficient in Windows</li>
-                <li> Slowly learning MAC</li>
-                <li> Pretty good at driving</li>
-            </ul>
-            <h2>About Me</h2>
-            <p>
-                Bacon ipsum dolor amet drumstick alcatra hamburger kevin shankle sausage meatball short loin biltong. Bacon burgdoggen biltong bresaola pig pork chop rump tenderloin shoulder pork belly filet mignon tri-tip. Short loin flank jerky, salami turducken meatball cow pancetta tongue. Pastrami swine shank biltong alcatra strip steak. Tenderloin boudin bacon filet mignon, porchetta meatball swine pig jowl turducken shank picanha. Chuck kevin t-bone, buffalo hamburger short ribs pig pork belly turkey sausage.
-            </p>
+    <section>
+        <h2>Skills and Experiences</h2>
+        <ul id="skills-section">
+            <li>Kinda proficient at Javascript</li>
+            <li> Improving at HTML</li>
+            <li> Getting better at CSS</li>
+            <li> Proficient in Windows</li>
+            <li> Slowly learning MAC</li>
+            <li> Pretty good at driving</li>
+        </ul>
+        <section id="about">
+                <h2 >About Me</h2>
+                <p>
+                    I'm David Chhing, and I'm an aspiring web developer/programmer out of Beaverton Oregon. I'm currently working full time and also enrolled at Alchemy Coding Bootcamp and plan on graduating sometime in Winter of 2018. What I like most about about coding is, there are infinite ways to accomplish one task. Soo...let your imagination take over and see where the code takes you!
+                </p>
         </section>
+    </section>
+    <section id="project-section">
+        <header><h2>Previous Projects</h2></header>
         <section id="project-list"></section>
-        <h2>Previous Projects</h2>
-        <section id="previousProjects">
-         
-        </section>
+        <section id="previousProjects"></section>
+    </section>  
     </main>
-
     <footer>
         &copy; 2018 Chhing Limited | Portfolio | Alchemy Lab Soon-to-be Graduate
     </footer>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
     <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="JS/projectInfo.js"></script>
     <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/projectView.js"></script>
 </body>
 </html>

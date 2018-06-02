@@ -1,15 +1,35 @@
-#main-menu {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.5s;
-}
-#menu-toggle {
-    display: none;
-}
-#menu-toggle:checked + #main-menu {
-    max-height: 110px;
-}
-.icon-menu:active {
-    box-shadow: 0 5px #666;
-    transform: translateY(.2em);
-}
+
+.hamburger{
+    background:none;
+    position: absolute;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+    display: flex;
+    /* flex-direction: row-reverse;  */
+  
+  }
+  .cross{
+    background:none;
+    position: absolute;
+    padding:7px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+    display: flex;
+   
+    /* flex-direction: row-reverse;  */
+  }
+
+  

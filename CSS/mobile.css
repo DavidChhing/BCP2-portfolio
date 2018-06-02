@@ -1,32 +1,17 @@
 @media screen and (min-width: 450px) {
-  /* .icon-menu, input {
-    display: none;
-  }  */
   #main-wrapper {
     max-width: 850px;
     margin: 0 auto;
+    display: block;
+  }
+  .menu {
+   
   }
 }
-.icon-menu {
-    font-size: 100%;
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
-@media screen and (min-width: 450px) {
-     .icon-menu {
-        visibility: hidden;
-        /* display: none; */
-    }
-    #main-menu a {
-        /* text-align: center; */
-        color: red;
-    }
-}
 
-/* <label class="icon-menu" for="menu-toggle"></label> */
+
+
 
 
 

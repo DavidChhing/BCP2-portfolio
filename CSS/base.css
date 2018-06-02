@@ -1,14 +1,21 @@
 body {
-    background: url(../Images/pexels-photo-978340.jpeg);
-    font-family: 'Muli', sans-serif;
+    background: url(../Images/background2.jpeg);
+    /* background-repeat: no-repeat; */
+    height:auto;    
+    /* background-size: 100%;   */
+    background-color: gainsboro;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
 }
 h1 {
     text-align: center;
-    font-family: 'Trirong', serif;
+    font-family: 'Yellowtail', cursive;
     font-size: 3.5em;
 }
 h2 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    font-size: 1.7em;
 }
 ul li {
     display:inline;
@@ -25,3 +32,4 @@ input {
 img {
     max-width: 100%;
   }
+  
