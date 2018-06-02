@@ -6,6 +6,7 @@ body {
     background-color: gainsboro;
     font-family: 'Quicksand', sans-serif;
     color: white;
+    font-style: oblique;
 }
 h1 {
     text-align: center;
@@ -16,6 +17,9 @@ h2 {
     font-family: 'Overpass', sans-serif;
     text-align: center;
     font-size: 1.7em;
+}
+h3 {
+    font-size: 1em;
 }
 ul li {
     display:inline;
