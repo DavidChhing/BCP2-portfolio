@@ -1,4 +1,5 @@
 'use strict'
+
 $(document).ready(function() {
     $( ".cross" ).hide();
     $( ".menu" ).hide();
