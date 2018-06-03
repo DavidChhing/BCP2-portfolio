@@ -11,10 +11,19 @@
     flex-wrap: wrap;
 }
 #about {
-    height: 25em;
     width: auto;
 }
 
 .navContent {
     display: none;
+}
+footer {
+    /* position: absolute;
+    /* bottom: 0; */
+    /* display: flex;
+    justify-content: space-between;
+    height: auto; */ 
+    position: absolute;
+   bottom: 0;
+   width: 100%;
 }

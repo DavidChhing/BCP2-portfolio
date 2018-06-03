@@ -1,17 +1,21 @@
 body {
     background: url(../Images/background2.jpeg);
-    /* background-repeat: no-repeat; */
-    height:auto;    
+    /* background-repeat: no-repeat; */ 
     /* background-size: 100%;   */
     background-color: gainsboro;
     font-family: 'Quicksand', sans-serif;
     color: white;
     font-style: oblique;
+    text-align: center;
+    padding-bottom: 4.25em;
+    position: relative;
+    min-height: calc(100vh - 16px - 4.25em);
 }
 h1 {
     text-align: center;
     font-family: 'Yellowtail', cursive;
     font-size: 3.5em;
+    margin-bottom: .1em;
 }
 h2 {
     font-family: 'Overpass', sans-serif;
@@ -34,6 +38,6 @@ input {
     width: 100%;
 }
 img {
-    max-width: 100%;
+    width: 25em;
   }
   
