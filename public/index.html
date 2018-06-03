@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Icon.css" type="text/css">
+    <link rel="stylesheet" href="CSS/layout.css" type="text/css">
+    <link rel="stylesheet" href="CSS/base.css" type="text/css">
+    <link rel="stylesheet" href="CSS/state.css" type="text/css">
+    <link rel="stylesheet" href="CSS/module.css" type="text/css">
+    <link rel="stylesheet" href="CSS/mobile.css" type="text/css">
+    <link rel="stylesheet" href="CSS/desktop.css" type="text/css">
+    <title>David Chhing's Personal Portfolio</title>
+    <script id="project-template" type="text/x-handlebars-template">
+    <section>
+        <h1>{{projectName}}</h1>
+        <h3>{{completeDate}}</h3>
+        <p>{{{body}}}</p>
+    </section>
+    </script>
+</head>
+
+<body>
+    <div id="socialMediaIcons">
+            <span class="icon-github" onclick="window.open('https://www.github.com/davidchhing')"></span>       
+            <span class="icon-facebook2" onclick="window.open('https://www.facebook.com/david.chhing.1')"></span>
+    </div>            
+    <header> 
+        <h1 class="name">David Chhing</h1>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <nav class="menu"> 
+            <ul>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#project-section">PROJECTS</a></li>
+                <li><a href="#skills-section">SKILLS</a></li>
+            </ul>     
+        </nav>                     
+    </header>
+
+    <section id="skills-section" class="navContent">
+        <h2>Skills and Experiences</h2>
+        <ul>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Jquery</li>
+            <li>JSON</li>
+            <li>Handlebars</li>
+        </ul>
+    </section>
+    <section id="about" class="navContent">
+            <h2 >About Me</h2>
+            <p>
+                I'm <strong>David Chhing</strong>, and I'm an aspiring web developer/programmer out of Beaverton Oregon. I'm currently working full time and also enrolled at Alchemy Coding Bootcamp and plan on graduating sometime in Winter of 2018. What I like most about about coding is, there are infinite ways to accomplish one task. Soo...let your imagination take over and see where the code takes you!
+            </p>
+    </section>
+
+    <section id="project-section" class="navContent">
+        <header><h2>Previous Projects</h2></header>
+        <section id="project-list"></section>
+        <section id="previousProjects"></section>
+        
+    </section>  
+    </main>
+    <footer>
+        <h3>&copy; 2018 Chhing Limited | Portfolio | Alchemy Lab Soon-to-be Graduate</h3>
+    </footer>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
+    <script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>   
+    <script type="text/javascript" src="JS/main.js"></script>
+    <script type="text/javascript" src="JS/projectView.js"></script>
+    <script>Projects.fetchAll();</script>
+</body>
+</html>

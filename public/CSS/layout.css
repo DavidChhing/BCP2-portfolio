@@ -1,0 +1,25 @@
+#socialMediaIcons { 
+    display: flex;
+    flex-direction: row-reverse;
+}
+#previousProjects {
+    display: flex;
+    flex-direction: column;
+}
+.navContent {
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+#about {
+    width: auto;
+}
+
+.navContent {
+    display: none;
+}
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
