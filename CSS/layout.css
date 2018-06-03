@@ -7,11 +7,14 @@
     flex-direction: column;
 }
 #skills-section {
-    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #about {
     height: 25em;
     width: auto;
+}
+
+.navContent {
+    display: none;
 }

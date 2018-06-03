@@ -1,6 +1,5 @@
 .hamburger{
     background:none;
-    position: absolute;
     line-height:45px;
     padding:5px 15px 0px 15px;
     color:#999;
@@ -13,7 +12,6 @@
   }
   .cross{
     background:none;
-    position: absolute;
     padding:7px 15px 0px 15px;
     color:#999;
     border:0;

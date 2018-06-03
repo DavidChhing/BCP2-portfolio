@@ -16,23 +16,12 @@ $(document).ready(function() {
     });
 });
 
-$(document).on('click', 'a[href^="#"]', function() {  
-   $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-}, 500);
+$(document).ready(function() {
+    $('#about').show();
 });
 
-var viewProject = {};
+$(document).on('click', 'a[href^="#"]', function() {  
+    $('.navContent').hide();
+    $($.attr(this, 'href')).fadeIn(500);   
+ });
 
-viewProject.handleClicks = function() {
-  $('#project-list').on('click', function(event) {
-    $('#previousProjects').children().hide();
-    $(`.${event.target.id}`).fadeIn(500);
-  });
-};
-
-$(document).ready(function() {
-    $('#previousProjects').children().hide();;
-    viewProject.handleClicks();
-    renderMenu();
-  });
